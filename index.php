@@ -7,7 +7,7 @@ $pesan = "<br>";
 
 //jika tombol upload ditekan
 if(isset($_POST["upload"])){
-    //mengambil nama, size, dan path dari file
+    //mengambil nama, size, dan path sementara dari file
     $fileName = $_FILES["jigma"]["name"];
     $fileSize = $_FILES["jigma"]["size"];
     $fileTmp = $_FILES["jigma"]["tmp_name"];
