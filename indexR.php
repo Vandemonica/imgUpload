@@ -73,7 +73,7 @@ $selectImage = mysqli_query($conn, "SELECT * FROM imagetb ORDER BY id DESC");
 
                 <div class="card">
                     <div class="card-body">
-                        <!--hapus-->
+                        <!--hapus file-->
                         <a href="hapus.php?id=<?=$fetch['id'];?>">hapus</a>
                         <!--panggil file/gambar-->
                         <img src="image/<?=$fetch['nama'];?>">
