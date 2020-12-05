@@ -35,7 +35,7 @@ if(isset($_POST["upload"])){
     else{$pesan = "Only jpg, png, and jpeg allowed";}
 
 }
-//query untuk mengambil file yg diupload
+//query untuk mengambil nama file di tabel
 $selectImage = mysqli_query($conn, "SELECT * FROM imagetb ORDER BY id DESC");
 
 ?>
